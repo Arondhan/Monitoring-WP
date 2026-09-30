@@ -96,7 +96,7 @@ docker-compose up -d
 
 5. **Откройте в браузере**
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:8000 (`/` — инфо `WowVendor Uptimer API`, `/health`, `/api/status`, `/project-docs`)
+- Backend API: http://localhost:8000 (`/` — инфо о API, `/health`, `/api/status`, `/project-docs`)
 - API Docs (Swagger): http://localhost:8000/docs (ReDoc: `/redoc`)
 - Celery Flower: http://localhost:5555
 
@@ -225,7 +225,7 @@ Dashboard/
 
 | Метод | Endpoint | Описание |
 |-------|----------|----------|
-| GET | `/` | `WowVendor Uptimer API`, ссылки на docs/health |
+| GET | `/` | Информация о API, ссылки на docs/health |
 | GET | `/health` | `{"status":"healthy","database":"connected"}` |
 | GET | `/api/status` | `http_timeout, slow_threshold_ms, ssl_warning_days, default_check_interval` |
 | GET | `/docs`, `/redoc`, `/project-docs` | Swagger / ReDoc / HTML-обзор |
