@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+uptime_db.sqlite
+backend/uptime_db.sqlite
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Frontend build
+frontend/dist/
+frontend/build/
+
+# Docker
+.dockerignore
